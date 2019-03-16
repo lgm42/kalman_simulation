@@ -15,7 +15,7 @@ p0 = 0.0
 s0 = 0.0
 a0 = 1.0
 
-time = np.arange(0, 1000, dt)
+time = np.arange(0, 100, dt)
 
 #simulation
 
@@ -74,7 +74,7 @@ H = np.matrix([[0, 0, 0], [0, 0, 0], [0, 0, 1]])
 positionError = 1.0
 speedError = 1.0
 accelerationError = 1.0
-R = 1*np.matrix([[positionError, 0, 0], [0, speedError, 0], [0, 0, accelerationError]])
+R = 3*np.matrix([[positionError, 0, 0], [0, speedError, 0], [0, 0, accelerationError]])
 index = 0
 
 for t in time:
