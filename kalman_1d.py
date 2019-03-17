@@ -68,7 +68,6 @@ Xkp0 = np.matrix([[p0], [s0], [a0]])
 
 Q = 1 * np.matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
 H = np.matrix([[0, 0, 0], [0, 0, 0], [0, 0, 1]])
-#H = np.identity(3, dtype = float)
 
 #Error matrix
 positionError = 1.0
